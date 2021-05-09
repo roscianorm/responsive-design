@@ -34,6 +34,7 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 header img{
     width: 150px;
@@ -50,5 +51,50 @@ header img{
     text-align: center;
     align-self: center;
 }
-.header--title-container{}
-.header--buttom{}
+.header--title-container h1{
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    line-height: 1.625rem; /* 26px */
+    color: var(--just-white);
+}
+.header--title-container p{
+    margin-top: 25px;
+    font-size: .875rem; /* 14px */
+    font-weight: 500;
+    line-height: 1.125rem; /* 18x */
+    color: var(--soft-orange);
+}
+.header--title-container .header--buttom{
+    position: absolute;
+    top: 270px;
+    /* Para centrar el boton hay dos opciones */
+    /* Opcion 1 */
+    /* left: calc(50% - 114px); */
+    /* Opcion 2, prefiero esta */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Shadows */
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+    border: none;
+    border-radius: 4px;
+    font-size: .875rem; /* 14px */
+    font-weight: bold;
+    text-decoration: none;
+    color:var(--warm-black-plus-1);
+    line-height: 1.125rem; /* 18x */
+}
+.header--buttom span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/arrow-down-black-vector.svg');
+}
