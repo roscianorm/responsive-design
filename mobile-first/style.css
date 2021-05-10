@@ -13,9 +13,9 @@
     --soft-blue:#E7F5FF;
     --warm-black:#201E1C;
     --warm-black-plus-1:#282623;
-    --grey: #757575;
-    --soft-grey:#BABABA;
-    --darker-grey:#808080;
+    --grey: #656565; /* #757575 */
+    --soft-grey:#767676; /* #BABABA */
+    --darker-grey:#959595; /* #808080 */
     --off-white:#FAF8F7;
     --just-white:#FFFFFF;
 }
@@ -149,7 +149,7 @@ main{
 }
 .table-container--slider{
     display: flex;
-    height: 370px;
+    height: 380px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -402,7 +402,7 @@ main{
 }
 .plans-container--slider{
     display: flex;
-    height: 316px;
+    height: 326px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -513,4 +513,8 @@ footer .footer-left a{
 }
 footer .footer-right{
     margin: 10px 0;
+}
+footer .footer-right img{
+    width: 58px;
+    height: 49px;
 }
